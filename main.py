@@ -37,4 +37,4 @@ async def ocrFuntion(file: bytes = File(...)):
 
 
 if __name__ == "__main__":
-    uvicorn.run(app, port=8080, host='localhost')
+    uvicorn.run(app, port=8000, host='localhost')
